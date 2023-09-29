@@ -18,5 +18,5 @@ app.get('/', (req, res) => {
 })
 
 app.get('/script.js', (req, res) => {
-  res.sendFile(path.join(__dirname, '/script.js'));
+  res.sendFile(path.join(__dirname, '/codice_script.js'));
 })
